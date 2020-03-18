@@ -18,7 +18,6 @@ float lg10(float num1);
 float sin(float num1);
 float cos(float num1);
 float tan(float num1);
-float sin(float num1);
 float fact(float num1);
 
 #define PI 3.14
