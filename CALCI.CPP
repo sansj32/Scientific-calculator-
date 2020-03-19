@@ -18,7 +18,7 @@ float lg10(float num1);
 float sin(float num1);
 float cos(float num1);
 float tan(float num1);
-float fact(float num1);
+long float fact(long float num1);
 
 #define PI 3.14
 #define G 180
@@ -27,9 +27,10 @@ int main()
 {
     clrscr();
     int choice;
-    float num1,num2;
-    float j=num1;
+    long float num1,num2;
+    long float j=num1;
     cout<<endl<<"******************\\\\\\ Sanskar's Multi-Purpose Calculator ///******************"<<endl;
+    court<<endl<<"This program is made by Sanskar Jain."<<endl;
     cout<<endl<<"Make a selection:"<<endl;
     cout<<endl<<"1.Division"<<endl;
     cout<<"2.Addition"<<endl;
@@ -56,42 +57,42 @@ int main()
 	   cout<<endl<<"Infinite!"<<endl;
 	  else
 	   cout<<endl<<" "<<num1<<"/"<<num2<<"="<<divide(num1,num2)<<endl;
-	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!!"<<endl;
+	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!! A program by Sanskar Jain."<<endl;
 	  break;
 	 case 2:
 	  cout<<endl<<"Please enter the two numbers you want to add: ";
 	  cin>>num1>>num2;
 	  cin.ignore();
 	  cout<<endl<<" "<<num1<<"+"<<num2<<"="<<add(num1,num2)<<endl;
-	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!!"<<endl;
+	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!! A program by Sanskar Jain."<<endl;
 	  break;
 	 case 3:
 	  cout<<endl<<"Please enter the two numbers you want to subtract: ";
 	  cin>>num1>>num2;
 	  cin.ignore();
 	  cout<<endl<<" "<<num1<<"-"<<num2<<"="<<sub(num1,num2)<<endl;
-	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!!"<<endl;
+	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!! A program by Sanskar Jain."<<endl;
 	  break;
 	 case 4:
 	  cout<<endl<<"Please enter the two numbers you want to multiply: ";
 	  cin>>num1>>num2;
 	  cin.ignore();
 	  cout<<endl<<" "<<num1<<"*"<<num2<<"="<<mult(num1,num2)<<endl;
-	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!!"<<endl;
+	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!! A program by Sanskar Jain."<<endl;
 	  break;
 	 case 5:
 	  cout<<endl<<"Enter the no.: ";
 	  cin>>num1;
 	  cin.ignore();
 	  cout<<endl<<" "<<num1<<"^2"<<"="<<sqr(num1)<<endl;
-	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!!"<<endl;
+	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!! A program by Sanskar Jain."<<endl;
 	  break;
 	 case 6:
 	  cout<<endl<<"Enter the no.: ";
 	  cin>>num1;
 	  cin.ignore();
 	  cout<<endl<<" "<<num1<<"^3"<<"="<<cube(num1)<<endl;
-	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!!"<<endl;
+	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!! A program by Sanskar Jain."<<endl;
 	  break;
 	 case 7:
 	  cout<<endl<<"Enter the no.: ";
@@ -101,7 +102,7 @@ int main()
 	   cout<<endl<<"Complex Root!"<<endl;
 	  else
 	   cout<<endl<<" "<<j<<"^0.5"<<"="<<sqrt(j)<<endl;
-	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!!"<<endl;
+	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!! A program by Sanskar Jain."<<endl;
 	  break;
 	 case 8:
 	   cout<<endl<<"Enter the num. & denom.: ";
@@ -111,7 +112,7 @@ int main()
 	    cout<<endl<<"Infinite!"<<endl;
 	   else
 	    cout<<endl<<" "<<num1<<"*100/"<<num2<<"="<<percentage(num1,num2)<<"%"<<endl;
-	   cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!!"<<endl;
+	   cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!! A program by Sanskar Jain."<<endl;
 	   break;
 	 case 9:
 	  cout<<endl<<"Enter the no.: ";
@@ -121,7 +122,7 @@ int main()
 	   cout<<endl<<"Complex Root!"<<endl;
 	  else
 	   cout<<endl<<" "<<j<<"^0.333"<<"="<<cbrt(j)<<endl;
-	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!!"<<endl;
+	  cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!! A program by Sanskar Jain."<<endl;
 	  break;
 	 case 10:
 	 {
@@ -156,7 +157,7 @@ int main()
 	    cin.ignore();
 	    break;
 	  }
-	    cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!!"<<endl;
+	    cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!! A program by Sanskar Jain."<<endl;
 	    break;
 	}
 	 case 11:
@@ -228,7 +229,7 @@ int main()
 	    cin.ignore();
 	    break;
 	  }
-	    cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!!"<<endl;
+	    cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!! A program by Sanskar Jain."<<endl;
 	    break;
 	}
 	case 12:
@@ -236,12 +237,12 @@ int main()
 	 cin>>j;
 	 cin.ignore();
 	 cout<<endl<<"The Factorial of "<<j<<" = "<<fact(j)<<endl;
-	 cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!!"<<endl;
+	 cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!! A program by Sanskar Jain."<<endl;
 	 break;
 
 	default:
 	 cout<<endl<<"Invalid Entry! Bye!!!"<<endl;
-	 cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!!"<<endl;
+	 cout<<endl<<"Run the program again to do more calculation! Thanks for using my program!!! A program by Sanskar Jain."<<endl;
 	 cin.ignore();
 	 break;
 
@@ -330,9 +331,9 @@ int main()
     i=(tan(num1*k));
     return(i);
   }
-  float fact(float num1)
+   long float fact(long float num1)
   {
-   float n=num1,facto=1,i;
+   long float n=num1,facto=1,i;
    if(n>=0)
    {
     for(i=1;i<=n;i++)
